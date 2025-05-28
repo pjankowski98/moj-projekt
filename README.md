@@ -1,8 +1,19 @@
-#Moj Projekt
+# Mój Projekt
 
-To jest przykładowy projekt utworzony na zajęcia z GitHub
+To jest przykładowy projekt stworzony w ramach zajęć z GitHub.
 
-## Cel projektu
+## Spis treści
+- [Opis](#opis)
+- [Instalacja](#instalacja)
+- [Użycie](#użycie)
+- [Licencja](#licencja)
 
-- Nauczyć się podstaw kontroli wersji
-- Ćwiczyć pracę z repozytorium lokalnym i zdalnym
+## Opis
+
+Ten projekt służy do nauki podstaw systemu kontroli wersji Git oraz pracy z GitHubem.
+
+## Instalacja
+
+```bash
+git clone https://github.com/twoj-login/moj-projekt.git
+cd moj-projekt
