@@ -1,0 +1,23 @@
+{
+  "name": "moj-projekt",
+  "version": "1.0.0",
+  "description": "To jest przykładowy projekt stworzony w ramach zajęć z GitHub.",
+  "main": "index.js",
+  "scripts": {
+  "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjankowski98/moj-projekt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pjankowski98/moj-projekt/issues"
+  },
+  "homepage": "https://github.com/pjankowski98/moj-projekt#readme",
+  "devDependencies": {
+    "jest": "^30.0.4"
+  }
+}
