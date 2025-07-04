@@ -29,7 +29,8 @@ Konflikt został rozwiązany poprzez stworzenie kompromisowej wersji nagłówka:
 
 Dzięki temu finalna wersja zachowuje elementy obu zmian i jest spójna.
 
-##Historia wersji
+
+## Historia wersji
 
 ## [v1.0.0] - 2025-07-04
 ### Changed
