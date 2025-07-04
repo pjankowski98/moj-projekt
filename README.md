@@ -3,6 +3,7 @@
 To jest przykładowy projekt stworzony w ramach zajęć z GitHub.
 
 ## Spis treści
+
 - [Opis](#opis)
 - [Instalacja](#instalacja)
 - [Użycie](#użycie)
