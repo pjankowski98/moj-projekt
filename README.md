@@ -43,3 +43,10 @@ Dzięki temu finalna wersja zachowuje elementy obu zmian i jest spójna.
 ## [v0.0.1] - 2025-07-04
 ### Fixed
 - Poprawka literówki w nagłówku.
+
+## Użycie funkcji square
+
+Przykład:
+```js
+const { square } = require('./square');
+console.log(square(5)); // 25
