@@ -8,6 +8,7 @@ To jest przykładowy projekt stworzony w ramach zajęć z GitHub.
 - [Instalacja](#instalacja)
 - [Użycie](#użycie)
 - [Licencja](#licencja)
+- [Historia wersji](#historia-wersji)
 
 ## Opis
 
@@ -27,3 +28,17 @@ Konflikt został rozwiązany poprzez stworzenie kompromisowej wersji nagłówka:
 "Wersja A i B – Witamy / Welcome!".
 
 Dzięki temu finalna wersja zachowuje elementy obu zmian i jest spójna.
+
+##Historia wersji
+
+## [v1.0.0] - 2025-07-04
+### Changed
+- Przebudowa struktury strony – zmiana łamiąca kompatybilność.
+
+## [v0.1.0] - 2025-07-04
+### Added
+- Dodanie linku 'O nas' do menu.
+
+## [v0.0.1] - 2025-07-04
+### Fixed
+- Poprawka literówki w nagłówku.
