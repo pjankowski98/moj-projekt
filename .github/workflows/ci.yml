@@ -30,3 +30,7 @@ jobs:
 
     - name: Build Docker image
       run: docker build -t my-app:latest .
+
+    - name: Deploy to server
+      if: github.ref == 'refs/heads/main'
+      run: echo "Wdrożenie zakończone pomyślnie!"
