@@ -18,7 +18,7 @@ Ten projekt służy do nauki podstaw systemu kontroli wersji Git oraz pracy z Gi
 ```bash
 git clone https://github.com/twoj-login/moj-projekt.git
 cd moj-projekt
-
+```
 
 ## Rozwiązywanie konfliktów
 
