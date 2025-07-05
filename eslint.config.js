@@ -4,32 +4,37 @@ import jestPlugin from "eslint-plugin-jest";
 import { defineConfig } from "eslint/config";
 
 export default defineConfig([
-  // Podstawowe lintowanie JS wg recommended
+  // Lintowanie JS z ECMAScript Modules
   {
     files: ["**/*.{js,mjs,cjs}"],
     plugins: { js },
     extends: ["js/recommended"],
     languageOptions: {
       ecmaVersion: "latest",
-      sourceType: "module", // dla import/export
+      sourceType: "module",
       globals: {
         ...globals.node,
         ...globals.browser,
       },
     },
   },
-  // Reguły specyficzne dla testów z Jest
+  // Specjalne reguły dla testów z Jest
   {
     files: ["**/*.test.js"],
     plugins: { jest: jestPlugin },
-    extends: ["plugin:jest/recommended"],
     languageOptions: {
       ecmaVersion: "latest",
       sourceType: "module",
       globals: {
         ...globals.node,
-        ...globals.jest, // rozpoznaje describe/test/expect
+        ...globals.jest,
       },
+    },
+    rules: {
+      // Aktywujesz pojedyncze reguły pluginu jest
+      "jest/no-disabled-tests": "warn",
+      "jest/no-focused-tests": "error",
+      "jest/no-identical-title": "error",
     },
   },
 ]);
