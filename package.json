@@ -5,7 +5,9 @@
   "description": "To jest przykładowy projekt stworzony w ramach zajęć z GitHub.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+  "start": "node index.js",
+  "test": "jest",
+  "lint": "eslint ."
   },
   "repository": {
     "type": "git",
